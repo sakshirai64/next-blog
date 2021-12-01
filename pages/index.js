@@ -7,7 +7,7 @@ import imageUrlBuilder from '@sanity/image-url';
 import { useRouter} from 'next/router';
 
 export default function Home({posts}) {
-  console.log(posts);
+
   let p;
   const router= useRouter();
   const[mappedPost, setMappedPost]=useState([]);
