@@ -1,6 +1,6 @@
 import imageUrlBuilder from '@sanity/image-url';
 import { useState, useEffect } from 'react';
-import styles from '../../styles/Post.module.css';
+import styles from '../../styles/post.module.css';
 import BlockContent from '@sanity/block-content-to-react';
 import { Toolbar } from '../../component/Toolbar';
 
